@@ -25,11 +25,11 @@ def descargar_api():
             # El JSON del profe es una lista directa [...]
             for p in datos_p:
                 # Usamos los nombres exactos que están en su JSON
-                ci = p.get("cedula")
-                nom = p.get("nombre")
-                corr = p.get("correo")
-                max_m = p.get("max_materias")
-                mats = p.get("materias_permitidas")
+                ci = p.get("Cedula")
+                nom = p.get("Nombre")
+                corr = p.get("Email")
+                max_m = p.get("Max Carga")
+                mats = p.get("Materias")
                 
                 if ci and nom:
                     profesores_finales.append(Profesor(str(ci), nom, corr, int(max_m), mats))
@@ -40,9 +40,9 @@ def descargar_api():
             if res_m.status_code == 200:
                 datos_m = res_m.json()
                 for m in datos_m:
-                    cod = m.get("codigo")
-                    nom = m.get("nombre")
-                    sec = m.get("secciones")
+                    cod = m.get("Código")
+                    nom = m.get("Nombre")
+                    sec = m.get("Secciones")
                     if cod and nom:
                         materias_finales.append(Materia(str(cod), nom, int(sec)))
 

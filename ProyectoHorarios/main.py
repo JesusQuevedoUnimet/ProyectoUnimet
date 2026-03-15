@@ -85,7 +85,6 @@ class Sistema:
             else: print(">>> Opción inválida.")
 
     # =============== MENÚS DE PROFESORES Y MATERIAS ===============
-    # (Usan la misma lógica estricta que hicimos antes)
     
     def buscar_profesor_por_cedula(self, cedula):
         for p in self.profesores:
