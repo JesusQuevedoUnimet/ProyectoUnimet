@@ -1,3 +1,4 @@
+#Jesus Quevedo y Santiago Arrieta
 import json
 import csv
 import requests
