@@ -1,3 +1,4 @@
+#Jesus Quevedo y Santiago Arrieta
 def modificar_horario(horario, profesores, bloques_horas, num_salones):
     """Permite cambiar el profesor o el horario de una sección."""
     if not horario:

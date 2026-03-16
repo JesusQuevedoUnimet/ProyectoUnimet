@@ -1,6 +1,4 @@
-# NOMBRES Y CARNETS:
-# [Tu Nombre] - [Tu Carnet]
-# [Nombre de tu Pareja] - [Carnet de tu Pareja]
+#Jesus Quevedo y Santiago Arrieta
 
 # IMPORTAMOS NUESTROS MÓDULOS
 from profesor import Profesor

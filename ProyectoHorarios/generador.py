@@ -1,3 +1,4 @@
+#Jesus Quevedo y Santiago Arrieta
 def generar_horario(profesores, materias, bloques_horas, num_salones):
     """
     Algoritmo Greedy para asignar profesores a materias sin choques.

@@ -1,3 +1,4 @@
+#Jesus Quevedo y Santiago Arrieta
 class Profesor:
     """Representa a un profesor dentro del sistema."""
     def __init__(self, cedula, nombre, correo, max_materias, materias_permitidas):

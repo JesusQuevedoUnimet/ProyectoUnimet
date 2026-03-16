@@ -1,3 +1,4 @@
+#Jesus Quevedo y Santiago Arrieta
 class Materia:
     """Representa una materia dentro del sistema."""
     def __init__(self, codigo, nombre, secciones):

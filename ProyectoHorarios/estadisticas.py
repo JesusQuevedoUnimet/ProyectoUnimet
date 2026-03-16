@@ -1,3 +1,4 @@
+#Jesus Quevedo y Santiago Arrieta
 import matplotlib.pyplot as plt
 
 def modulo_estadisticas(horario, profesores, bloques_horas):
